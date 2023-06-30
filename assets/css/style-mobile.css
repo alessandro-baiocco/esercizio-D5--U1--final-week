@@ -78,7 +78,7 @@ main,
 main .main-up img {
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   display: block;
-  margin: 0;
+  margin: 0 auto;
   width: 380px;
   padding-bottom: 30px;
 }
