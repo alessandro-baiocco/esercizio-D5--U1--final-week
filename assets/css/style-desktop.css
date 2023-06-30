@@ -1,0 +1,163 @@
+/* Your styles here */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* general */
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+h1,
+h2 {
+  color: rgba(37, 166, 203, 255);
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+/* header */
+
+header div:first-of-type {
+  background-color: black;
+  padding: 20px 98% 40px 2%;
+}
+
+header img {
+  width: 180px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* nav */
+
+nav {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 180px 30%;
+}
+
+nav div p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+nav input {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  height: 40px;
+  width: 120px;
+  color: white;
+  border: solid 0px rgba(255, 255, 255, 0);
+  border-radius: 5% 5% 5% 5% / 10% 10% 10% 10%;
+}
+
+/* main */
+
+main,
+.main-down {
+  font-weight: lighter;
+  padding: 40px 40px;
+  font-size: 1.2em;
+  line-height: 1.65;
+  align-items: center;
+  margin: 40px auto 10px;
+}
+
+main .main-up img {
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  display: block;
+  margin: 0 80px 0 10px;
+  width: 480px;
+  padding-bottom: 30px;
+  float: left;
+}
+
+.main-up {
+  text-align: left;
+  padding: 100px 19% 100px;
+  font-size: 20px;
+}
+
+.main-down {
+  background-color: red;
+  padding: 80px 13px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-down h3 {
+  font-size: 56px;
+  font-weight: bold;
+  padding: 30px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main-down h4 {
+  font-weight: 500;
+  font-size: 28px;
+}
+.main-down p {
+  font-style: italic;
+  font-size: 40px;
+}
+
+/* aside */
+aside {
+  padding: 40px 40px;
+  justify-content: center;
+}
+
+aside img {
+  width: 480px;
+  padding-bottom: 20px;
+  height: 400px;
+}
+
+aside p {
+  line-height: 1.65;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding: 10px 25px 60px;
+}
+
+.aside-box {
+  width: 480px;
+  display: inline-block;
+  margin: 10px 40px;
+  border: 1px solid rgba(128, 128, 128, 0.381);
+}
+/* footer */
+
+footer {
+  background-color: #27a4cb;
+  color: white;
+  padding: 40px 42% 80px;
+  line-height: 1.5;
+  font-weight: 100;
+  text-align: left;
+}
+footer h4 {
+  font-size: 60px;
+}
+footer a {
+  color: white;
+}
+
+hr {
+  margin: 30px 0px;
+}
