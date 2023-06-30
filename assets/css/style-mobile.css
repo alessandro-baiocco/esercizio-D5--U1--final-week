@@ -1,0 +1,153 @@
+/* Your styles here */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* general */
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+h1,
+h2 {
+  color: rgba(37, 166, 203, 255);
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+/* header */
+
+header div:first-of-type {
+  width: 450px;
+  background-color: black;
+  padding: 20px 135px 30px;
+}
+
+header img {
+  width: 180px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+/* nav */
+
+nav {
+  padding: 40px 50px;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+}
+
+nav p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+nav input {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  height: 40px;
+  width: 120px;
+  color: white;
+  border: solid 0px rgba(255, 255, 255, 0);
+  border-radius: 5% 5% 5% 5% / 10% 10% 10% 10%;
+}
+
+/* main */
+
+main,
+.main-down {
+  font-weight: lighter;
+  padding: 40px 40px;
+  font-size: 1.2em;
+  line-height: 1.65;
+  align-items: center;
+  margin: 40px auto 10px;
+}
+
+main .main-up img {
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  display: block;
+  margin: 0;
+  width: 380px;
+  padding-bottom: 30px;
+}
+
+.main-down {
+  background-color: red;
+  padding: 10px 13px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-down h3 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 30px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main-down p:last-child {
+  padding-bottom: 30px;
+}
+
+.main-down h4 {
+  font-weight: 500;
+  font-size: 28px;
+}
+.main-down p {
+  font-style: italic;
+}
+
+/* aside */
+aside {
+  padding: 40px 40px;
+}
+
+aside img {
+  width: 380px;
+  padding-bottom: 20px;
+}
+
+aside p {
+  line-height: 1.65;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-bottom: 60px;
+}
+
+/* footer */
+
+footer {
+  background-color: #27a4cb;
+  color: white;
+  padding: 40px 20px;
+  line-height: 1.5;
+  font-weight: 100;
+}
+footer h4 {
+  font-size: 40px;
+}
+footer a {
+  color: white;
+}
+
+/* footer p {
+  padding-bottom: 10px;
+} */
+
+hr {
+  margin: 30px 120px;
+}
