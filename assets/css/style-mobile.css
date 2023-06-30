@@ -1,12 +1,6 @@
 /* Your styles here */
 /*questi parametri sono pensati per 450 x 800 */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 /* general */
 body {
   text-align: center;
@@ -51,6 +45,7 @@ nav p {
   line-height: 1.5;
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 nav input {
