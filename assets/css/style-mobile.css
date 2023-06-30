@@ -59,6 +59,10 @@ nav input {
   border-radius: 5% 5% 5% 5% / 10% 10% 10% 10%;
 }
 
+nav input:hover {
+  cursor: pointer;
+}
+
 /* main */
 
 main,

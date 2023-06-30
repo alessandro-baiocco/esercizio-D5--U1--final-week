@@ -1,12 +1,6 @@
 /* Your styles here */
 /*questi parametri sono pensati per 1920 x 1080*/
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 /* general */
 body {
   text-align: center;
@@ -58,10 +52,14 @@ nav input {
   font-family: "Montserrat", sans-serif;
   background-color: #f04c2f;
   height: 40px;
-  width: 120px;
+  width: 140px;
   color: white;
   border: solid 0px rgba(255, 255, 255, 0);
   border-radius: 5% 5% 5% 5% / 10% 10% 10% 10%;
+}
+
+nav input:hover {
+  cursor: pointer;
 }
 
 /* main */
