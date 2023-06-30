@@ -117,7 +117,7 @@ aside {
 }
 
 aside img {
-  width: 380px;
+  width: 370px;
   padding-bottom: 20px;
 }
 
@@ -125,7 +125,11 @@ aside p {
   line-height: 1.65;
   font-size: 1.2em;
   font-weight: lighter;
-  padding-bottom: 60px;
+}
+aside div {
+  border: 1px solid rgba(128, 128, 128, 0.381);
+  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 /* footer */
